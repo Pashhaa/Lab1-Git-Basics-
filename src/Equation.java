@@ -27,7 +27,7 @@ public class Equation {
             return solvation;
 
         } else {
-            System.out.println("There are no roots");
+            System.out.println("There are 0 roots");
             return solvation;
         }
     }
