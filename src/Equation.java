@@ -1,13 +1,11 @@
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Equation {
-    double a;
-    double b;
-    double c;
+    double a,b,c;
 
-
-    public List<Double> solveEquation() {
+    public List<Double> solveEquation() throws IOException {
         ArrayList<Double> solvation = new ArrayList<>();
         double discriminant = b * b - 4 * a * c;
         double x1, x2, x;
