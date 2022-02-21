@@ -14,7 +14,7 @@ public class Interactive extends Equation {
             System.out.print("c = ");
             super.c = argsInput();
             System.out.println("Equation is:" + "(" + a + ")" + "x^2" + "+" + "(" + b + ")" + "x" + "+" + "(" + c + ")");
-            return solveEquation();
+            return super.solveEquation();
         } catch (Exception e) {
             System.out.println("Error. Expected a valid real number, try again, please");
 
